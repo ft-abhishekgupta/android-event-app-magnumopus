@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/arrow"
+            />
+        <item
+            android:id="@+id/events"
+            android:title="Events"
+            android:icon="@drawable/arrow"
+            />
+
+                <item
+                    android:id="@+id/cultural"
+                    android:title="    - Cultural"
+
+                    />
+                <item
+                    android:id="@+id/informals"
+                    android:title="    - Informals" />
+                <item
+                    android:id="@+id/literary"
+                    android:title="    - Literary" />
+                <item
+                    android:id="@+id/technical"
+                    android:title="    - Technical" />
+
+
+        <item
+            android:id="@+id/schedule"
+            android:title="Schedule"
+            android:icon="@drawable/arrow"
+            />
+        <item
+            android:id="@+id/notification"
+            android:title="Notification"
+            android:icon="@drawable/arrow"
+            />
+        <item
+            android:id="@+id/sponsors"
+            android:title="Sponsors"
+            android:icon="@drawable/arrow"
+            />
+        <item
+            android:id="@+id/team"
+            android:title="Team"
+            android:icon="@drawable/arrow"
+            />
+        <item
+            android:id="@+id/aboutus"
+            android:title="About Us"
+            android:icon="@drawable/arrow"/>
+        <item
+            android:id="@+id/contactus"
+            android:icon="@drawable/arrow"
+            android:title="Contact Us" />
+    </group>
+
+    <item android:title="LINKS-">
+        <menu>
+            <item
+                android:id="@+id/website"
+                android:icon="@drawable/arrow"
+                android:title="Website" />
+            <item
+                android:id="@+id/youtube"
+                android:icon="@drawable/arrow"
+                android:title="Youtube" />
+            <item
+                android:id="@+id/facebook"
+                android:icon="@drawable/arrow"
+                android:title="Facebook" />
+            <item
+                android:id="@+id/map"
+                android:icon="@drawable/arrow"
+                android:title="Map" />
+
+        </menu>
+    </item>
+
+</menu>

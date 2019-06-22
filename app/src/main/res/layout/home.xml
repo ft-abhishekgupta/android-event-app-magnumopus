@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:weightSum="3"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/linearLayout">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/mologo"
+            android:id="@+id/mologo"
+            android:layout_weight="1"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp" />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/mologotext"
+            android:layout_weight="2"
+            android:src="@drawable/mologotext"
+            android:layout_gravity="right"
+            android:layout_marginRight="20dp"
+            android:paddingTop="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linearLayout">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="3">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/imageView2"
+                            android:src="@drawable/events"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            android:onClick="mevent" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Events"
+                            android:id="@+id/textView2"
+                            android:layout_below="@+id/imageView2"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/mytextc"
+                            android:onClick="mevent" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/imageView3"
+                            android:src="@drawable/schedule"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            android:onClick="mschedule" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Schedule"
+                            android:id="@+id/textView3"
+                            android:layout_below="@+id/imageView3"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/mytextc"
+                            android:onClick="mschedule" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/imageView4"
+                            android:src="@drawable/notification"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            android:onClick="mnotification" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Notifications"
+                            android:id="@+id/textView4"
+                            android:layout_below="@+id/imageView4"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/mytextc"
+                            android:onClick="mnotification" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/imageView5"
+                            android:src="@drawable/website"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            android:onClick="mwebsite" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Website"
+                            android:id="@+id/textView5"
+                            android:layout_below="@+id/imageView5"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/mytextc"
+                            android:onClick="mwebsite" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/imageView6"
+                            android:src="@drawable/sponsors"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            android:onClick="msponsors" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Sponsors"
+                            android:id="@+id/textView6"
+                            android:layout_below="@+id/imageView6"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/mytextc"
+                            android:onClick="msponsors" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/imageView7"
+                            android:src="@drawable/team"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            android:onClick="mteam" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Team"
+                            android:id="@+id/textView7"
+                            android:layout_below="@+id/imageView7"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/mytextc"
+                            android:onClick="mteam" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/imageView8"
+                            android:src="@drawable/aboutus"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            android:onClick="maboutus" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="About Us"
+                            android:id="@+id/textView8"
+                            android:layout_below="@+id/imageView8"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/mytextc"
+                            android:onClick="maboutus" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="1"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/imageView9"
+                            android:src="@drawable/contact"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            android:onClick="mcontactus" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Contact Us"
+                            android:id="@+id/textView9"
+                            android:layout_below="@+id/imageView9"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/mytextc"
+                            android:onClick="mcontactus" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_column="2"
+                    android:layout_weight="1">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:id="@+id/imageView10"
+                            android:src="@drawable/developer"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"
+                            android:onClick="mdeveloper" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:text="Developer"
+                            android:id="@+id/textView10"
+                            android:layout_below="@+id/imageView10"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/mytextc"
+                            android:onClick="mdeveloper" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</RelativeLayout>

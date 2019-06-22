@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/s1i"
+            android:src="@drawable/spon1"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Z.N. Infotech"
+            android:id="@+id/s1"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/mytextc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="___________________"
+            android:id="@+id/hl"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/mytextc" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/s2i"
+            android:src="@drawable/spon2"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Team Satyam"
+            android:id="@+id/s2"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/mytextc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="___________________"
+            android:id="@+id/hl2"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/mytextc" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:id="@+id/s3i"
+            android:src="@drawable/spon3"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Quazar , Lucknow"
+            android:id="@+id/s3"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/mytextc" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="___________________"
+            android:id="@+id/hl3"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/mytextc" />
+    </LinearLayout>
+</ScrollView>

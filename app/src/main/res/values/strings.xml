@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Magnum Opus</string>
+    <string name="website">http://www.ietkriti.com</string>
+    <string name="youtube">https://www.youtube.com/user/ietkriti</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

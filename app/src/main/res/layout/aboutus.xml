@@ -1,0 +1,88 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:id="@+id/imageView4"
+            android:src="@drawable/mologo"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Magnum Opus 2K16"
+            android:id="@+id/textView7"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/mytextc"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold|italic"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Computer Science and Engineering Department of IET Lucknow, in association with the KRITI Society organises one of the most awaited fest here....This year it is....MAGNUM OPUS"
+            android:id="@+id/textView8"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/mytextc"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="It&apos;s one of the best Inter-College Departmental Fest."
+            android:id="@+id/textView9"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/mytextc"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:id="@+id/imageView11"
+            android:src="@drawable/kriti"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="KRITI \n The Creative Vision \n IET , Lucknow"
+            android:id="@+id/textView11"
+            android:textColor="@color/mytextc"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="The Department continuously makes efforts to make the students aware of the latest technology and this was the cause of the launch of the Computer Science and Engineering Department Students’ society named “KRITI-The creative vision”. \n\nEver since its establishment on the eve of 28th February 2004, this society organises a fest which is the most awaited departmental fest of the college. It is a registered society of IET Lucknow. All students of the CSE department are involved in the society fests. This fest consists of technical , informal , literary and cultural events which attracts a large number of students."
+            android:id="@+id/textView12"
+            android:textColor="@color/mytextc"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+</ScrollView>
